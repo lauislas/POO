@@ -1,0 +1,17 @@
+{
+  "name": "npm-ejercicio2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ejecutar": "node index1.js & node index2.js",
+    "ejecutar2": "node index2.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Laura Islas",
+  "license": "ISC",
+  "dependencies": {
+    "asciichart": "^1.5.21",
+    "events": "^3.1.0"
+  }
+}

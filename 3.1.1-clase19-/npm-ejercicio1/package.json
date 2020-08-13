@@ -1,0 +1,16 @@
+{
+  "name": "npm-ejercicio1",
+  "version": "1.0.0",
+  "description": "ejercicio1",
+  "main": "index.js",
+  "scripts": {
+    "tarea1": "node index1.js & node index2.js",
+    "tarea2": "node index2.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Laura Islas",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}

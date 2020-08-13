@@ -1,0 +1,14 @@
+{
+  "name": "3.-ejerciciotextos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "iniciar": "tsc textos.ts & node textos.js "
+  },
+  "author": "Laura Islas",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^14.0.22"
+  }
+}

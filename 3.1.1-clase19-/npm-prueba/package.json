@@ -1,0 +1,15 @@
+{
+  "name": "npm-prueba",
+  "version": "1.0.0",
+  "description": "ejercicio de prueba",
+  "main": "index.js",
+  "scripts": {
+    "servidor": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Laura Islas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

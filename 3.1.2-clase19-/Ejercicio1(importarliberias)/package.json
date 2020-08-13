@@ -1,0 +1,14 @@
+{
+  "name": "1.ejercicio1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "iniciar": "tsc index.ts & node index.js "
+  },
+  "author": "Laura Islas",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}

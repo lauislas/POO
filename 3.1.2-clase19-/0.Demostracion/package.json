@@ -1,0 +1,11 @@
+{
+  "name": "0.-demostracion",
+  "version": "1.0.0",
+  "description": "Sumar arreglo",
+  "main": "index.js",
+  "scripts": {
+    "iniciar": "tsc index.ts & node index.js"
+  },
+  "author": "Laura Islas",
+  "license": "ISC"
+}

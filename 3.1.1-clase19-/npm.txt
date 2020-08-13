@@ -1,0 +1,51 @@
+Node Package Manager (npm)
+•  Gestión de Dependencias: libreria o funciones ya hechas. 
+•  Crear un proyecto : npm init (esto crea un pack.jason) o npm ini -y(lo hace sin apretar enter)
+•  Instalar dependencias: npm install <nombre_libreria> 
+•  A partir del nombre 
+•  A partir del package.json 
+•  Ubicación de las dependencias 
+•  Eliminar/actualizar dependencias : npm uninstall <nombre_dependencia>
+•  Listar dependencias : npm list - Otra forma de ver las dependencias instaladas, es fijarse directo en el package.json
+•  Consultar dependencias desactualizadas: npm outdated 
+. Definir/ejecutar tareas del package.json: npm run <nombre_tarea>
+•  Manejo básico de consola
+
+
+Para instalar un paquete con npm vamos a hacerlo de la siguiente manera, escribiendo: npm install nombre_paquete@version
+esto se instalará de manera local(en el proyecto),pero si queremos instalarlo de manera global tenemos que agregar el -g después del nombre del paquete:
+
+En sistemas siempre se busca hacer las cosas repetitivas en el menor tiempo posible
+• Los comandos de NPM se usan bastante, por lo que existen otras formas de hacer el mismo comando
+• npm install → npm i
+• npm init -y → genera package.json con valores por defecto (sin hacer preguntas)
+• npm test → npm t
+• npm install --global imagejs → npm i -g imagejs
+
+al subir a git no tenemos que subir el node modules con .gitignore
+
+
+ejectutar por consola: en el scrpit del package.json:
+
+. node index.js 
+
+. npm run "nombre creado en el script"
+
+
+demostracion en clase:
+
+• Crear un proyecto:
+ Npm init: crea al package.json 
+ Npm i “loquesea”
+ 
+•  Implementar una determinada funcionalidad: bajando librerias
+•  Correr el archivo con node: node index.js 
+•  Definir una tarea en package.json: en el script "servidor": "node index.js",
+•  Correr el archivo con NPM: npm run servidor 
+
+
+
+Crear un proyecto 
+•  Crear dos archivos con funcionalidades diferentes : crear 2 js
+•  Definir las tareas asociadas y ejecutarlas: 2 tareas en el script de package.json
+hay que crear un archivo git ignore cuando bajamos dependencias para que no suba node_modules: .gitignore y agregarle el nombre de esa carpeta node_modules/

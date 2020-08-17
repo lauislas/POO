@@ -1,0 +1,3 @@
+Laura,Jupiter,300
+Pedro,Marte, 2000
+Matias,Martes, 800

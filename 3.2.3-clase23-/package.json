@@ -1,0 +1,15 @@
+{
+  "name": "ejercicioclase",
+  "version": "1.0.0",
+  "description": "Implementar la clase libros, gestor de libros y lector de archivos",
+  "main": "index.js",
+  "scripts": {
+    "liberia": "tsc gestorLibros.ts & node gestorLibros.js"
+  },
+  "author": "Laura Islas",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^14.0.26",
+    "readline-sync": "^1.4.10"
+  }
+}

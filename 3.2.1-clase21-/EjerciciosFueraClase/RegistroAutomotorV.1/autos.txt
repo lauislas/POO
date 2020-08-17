@@ -1,0 +1,6 @@
+Fiat,Palio,2002,HJK222,Juan
+Ford,Fiesta,2012,FGH853,Jose
+Volkswagen,Gol,2015,WQE000,Diego
+Fiat,Uno,2010,VBV111,Pedro
+Chevrolet,Corsa,2017,LOK344,Lucia
+Peugeot,206,2015,KIL675,Antonia

@@ -1,0 +1,15 @@
+{
+  "name": "registroautomotorv.1",
+  "version": "1.0.0",
+  "description": "registro automotor v.1",
+  "main": "autos.js",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "registro": "tsc autos.ts & node autos.js"
+  },
+  "author": "Laura Islas",
+  "license": "ISC"
+}

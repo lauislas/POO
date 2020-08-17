@@ -1,0 +1,13 @@
+{
+  "name": "lectorarchivos",
+  "version": "1.0.0",
+  "description": "Clase creada para leer archivos txt",
+  "main": "lectorArchivos.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "leer": "tsc lectorArchivos.ts & node lectorArchios.js"
+  },
+  "author": "Laura Islas",
+  "license": "ISC"
+}

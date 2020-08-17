@@ -1,0 +1,13 @@
+{
+  "name": "ejercicio2",
+  "version": "1.0.0",
+  "description": "ejercicio2",
+  "main": "index.js",
+  "scripts": {
+    "televisor": "tsc Televisor/televisor.ts & node Televisor/televisor.js",
+    "auto":"tsc Auto/auto.ts & node Auto/auto.js",
+    "monitor": "tsc Monitor/monitor & node Monitor/monitor.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

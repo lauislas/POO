@@ -1,0 +1,14 @@
+{
+  "name": "ejercicio1",
+  "version": "1.0.0",
+  "description": "ejercicios en clase",
+  "main": "index.js",
+  "scripts": {
+    "iniciar": "tsc televisor.ts & node televisor.js"
+  },
+  "author": "Laura Islas",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}

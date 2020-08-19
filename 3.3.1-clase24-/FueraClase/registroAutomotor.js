@@ -140,15 +140,6 @@ var RegistroAutomotor = /** @class */ (function () {
             console.log("El titular no se encuentra.");
         }
     };
-    RegistroAutomotor.prototype.actualizarTitular = function (busqueda) {
-        var i = this.buscarTitular(busqueda);
-        if (i != -1) {
-            var nuevoT = ReadlineSync.question("Ingrese nuevo titular: ");
-            this.listaVehiculos[i].setTitular(nuevoT);
-            console.log(this.listaVehiculos);
-            console.log("TITULAR ACTUALIZADO");
-        }
-    };
     RegistroAutomotor.prototype.darAlta = function () {
         console.log("Para dar de alta ingrese..");
         var elegir = ReadlineSync.questionInt("1 para auto, 2 para camion, 3 para moto:");

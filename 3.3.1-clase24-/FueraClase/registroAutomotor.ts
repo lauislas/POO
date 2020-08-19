@@ -143,16 +143,6 @@ class RegistroAutomotor {
         }
     }
 
-    public actualizarTitular(busqueda: string): void {
-        let i: number = this.buscarTitular(busqueda);
-        if (i != -1) {
-            let nuevoT: string = ReadlineSync.question("Ingrese nuevo titular: ");
-            this.listaVehiculos[i].setTitular(nuevoT);
-            console.log(this.listaVehiculos);
-            console.log("TITULAR ACTUALIZADO");
-        }
-    }
-
     public darAlta(): Vehiculos[] {
         console.log("Para dar de alta ingrese..")
         let elegir: number = ReadlineSync.questionInt("1 para auto, 2 para camion, 3 para moto:");

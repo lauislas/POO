@@ -1,0 +1,6 @@
+Auto,Fiat,Palio,2002,HJK222,Juan,3
+Moto,Kawasaki,Z900,2016,ABC524,Laura,250
+Camion,Iveco,Stralis,2016,DFH159,Matias,8000,12
+Auto,Ford,Fiesta,2012,FGH853,Jose,5
+Moto,Lambretta,LN125,218,ERT123,Victoria,125
+Camion,Mercedes,Axor,2018,FGH879,Mauro,1760,24
